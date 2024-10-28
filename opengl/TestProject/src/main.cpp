@@ -14,6 +14,12 @@ int main(int, char**) {
     window = glfwCreateWindow(640, 480, "First window!", NULL, NULL);
     glfwMakeContextCurrent(window);
 
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+        printf("Failed to initialize GLAD\n");
+        glfwTerminate();
+        return -1;
+    }
+
     while(!glfwWindowShouldClose(window)) {
         glfwPollEvents();
 
