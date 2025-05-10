@@ -1,5 +1,5 @@
 
-# WSL with OpenGL, GLFW, and GLAD
+# Vulkan and OpenGL under WSL with GLFW and GLAD
 
 ### Work in Progress - This repository serves as a personal reference.
 
