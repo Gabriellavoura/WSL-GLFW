@@ -21,7 +21,9 @@ CMakeUserPresets.json
 **/*.cbp
 **/CMakeScripts
 **/compile_commands.json
-**/build
+
 build/**/*
 
 include/*
+
+vscode/*
